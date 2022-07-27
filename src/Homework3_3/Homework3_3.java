@@ -16,6 +16,7 @@ public class Homework3_3 {
 //        per5.input();
 
         per1.output();
+        per1.changeName("John","Smith");
 
     }
 }
