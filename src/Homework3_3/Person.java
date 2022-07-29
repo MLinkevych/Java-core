@@ -48,6 +48,7 @@ public class Person {
         setBirthYear(sc.nextInt());
         sc.close();
     }
+
     public void output(){
         System.out.println("Person's data: \n Name: " + getFirstName()
         + " " + getLastName() + "/" + getBirthYear() + " Age: " + getAge());
