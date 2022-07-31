@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class carsMain {
     public static void main(String[] args) {
-        Car[] carObjects;
+
         Car[] car = new Car[4];
 
         car[0] = new Truck("Buick", 200, 2019);
