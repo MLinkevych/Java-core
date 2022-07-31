@@ -42,7 +42,10 @@ public abstract class Car {
     public abstract void stop();
 
     public String toString(){
-        return "Model :" + model + " Max speed: " + maxSpeed + " Year of manufacture: " + yearOfManufacture;
+        StringBuilder sb = new StringBuilder();
+        sb.append("Model: ").append(model).append(" Max speed: ").append(maxSpeed).append(" Year of manufacture: " ).
+                append(yearOfManufacture);
+        return sb.toString();
     }
 
 
