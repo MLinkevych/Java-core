@@ -1,8 +1,6 @@
 package Homework3_2;
 
-import java.util.Arrays;
-
-public class Homework3_2 {
+public class Programm {
     public static void main(String[] args) {
         Employee worker1 = new Employee("Franko Ivan", 10, 100);
         Employee worker2 = new Employee("Ukrainka Lesya", 10, 100);

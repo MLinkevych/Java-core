@@ -32,8 +32,6 @@ public class Employee {
     }
     // constructor
     public Employee() {
-
-
     }
     // constructor
     public Employee(String name, int rate) {

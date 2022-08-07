@@ -4,6 +4,10 @@ public abstract class Point {
     private int x;
     private int y;
 
+    public Point() {
+
+    }
+
     public int getX() {
         return x;
     }
@@ -28,6 +32,6 @@ public abstract class Point {
         return String.format("x = %d and y = %d", x, y);
     }
     public void print(){
-        System.out.println(this);
+        System.out.println();
     }
 }

@@ -2,6 +2,10 @@ package homework4_1;
 
 public class Line extends Point{
 
+    public Line() {
+        super();
+    }
+
     public Line(int x, int y) {
         super(x, y);
     }
@@ -16,11 +20,8 @@ public class Line extends Point{
         return super.getY();
     }
 
-    public String toString(){
-
-            return String.format("Line coordinates are x = %d, y = %d and x = %d, y = %d", getX(), getY(),getX(), getY());
-
-
+     public String toString(){
+            return String.format("Line %d, %d", getX(), getY());
     }
     public void print(){
         System.out.println();
